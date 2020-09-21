@@ -1,0 +1,3 @@
+module.exports = {
+  cordialAPIKey: 'NWVmMGMwNDgxN2Q0ZTU2NTcwNTQzNmYzLTQ2M2MzeXRmMVFWMm9PR1J3TmNuSFRkeERMOUtJcW5UOg==',
+}

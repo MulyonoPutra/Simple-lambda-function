@@ -1,0 +1,15 @@
+service: test
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: us-west-2
+  
+functions:
+  simpleFunction:
+    handler: src/functions/index.handler
+    events: 
+    - http:
+        path: /testFunction
+        method: get
